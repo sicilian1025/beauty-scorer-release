@@ -1,0 +1,19 @@
+{
+  "detector": {
+    "score_threshold": 0.55,
+    "nms_threshold": 0.3,
+    "max_side": 1024,
+    "top_k": 5000,
+    "dedup_iou": 0.2,
+    "dedup_ios": 0.6,
+    "dedup_center": 0.2
+  },
+  "model": {
+    "input_size": 224,
+    "device": "auto"
+  },
+  "scoring": {
+    "population": "asian",
+    "margin": 0.25
+  }
+}
